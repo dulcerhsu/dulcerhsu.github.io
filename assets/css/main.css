@@ -2767,12 +2767,12 @@ button:disabled,
 	border-bottom-left-radius: 3px;
 }
 
-li.image {
+.features li.image {
 	list-style: none;
 	display: inline-block;
 }
 
-li.image img {
+.features li.image img {
 	float: left;
 	margin-right: 10px;
 	width: 75px;
