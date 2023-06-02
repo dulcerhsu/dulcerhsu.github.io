@@ -2767,6 +2767,18 @@ button:disabled,
 	border-bottom-left-radius: 3px;
 }
 
+li.image {
+	list-style: none;
+	display: inline-block;
+}
+
+li.image img {
+	float: left;
+	margin-right: 10px;
+	width: 75px;
+	height: 75px;
+}
+
 @media screen and (max-width: 980px) {
 
 	.features li {
