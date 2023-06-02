@@ -218,29 +218,33 @@
 					<h4>Want to write me a message?</h4>
 					<p>If you have any questions or would like to get in touch with me, please
 						fill out the contact form below. I will get back to you as soon as I can.</p>
-					<form method="post" action="#">
+
+					<form method="post" action="https://api.web3forms.com/submit">
+						<input type="hidden" name="access_key" value="d7f35c52-6ef6-42f9-b761-63053ba66109">
+
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-small">
-								<input type="text" name="client_name" id="client_first_name" value=""
+								<input type="text" name="Client Name" id="client_first_name" value=""
 									placeholder="Full Name" />
 							</div>
 							<div class="col-6 col-12-small">
-								<input type="email" name="client_email" id="client_email" value=""
+								<input type="email" name="Client Email" id="client_email" value=""
 									placeholder="Email" />
 							</div>
 							<div class="col-12">
-								<select name="demo-category" id="demo-category">
+								<select name="Category" id="category">
 									<option value="">I am a ...</option>
-									<option value="new_client">New client</option>
-									<option value="current_client">Current or prior client</option>
-									<option value="other">Other</option>
+									<option value="New Client">New client</option>
+									<option value="Current or Prior Client">Current or prior client</option>
+									<option value="Other">Other</option>
 								</select>
 							</div>
 							<div class="col-12">
-								<textarea name="client-message" id="client-message" placeholder="Enter your message"
+								<textarea name="Client Message" id="client_message" placeholder="Enter your message"
 									rows="6"></textarea>
 							</div>
 							<div class="col-12">
+								<div class="h-captcha" data-captcha="true"></div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="primary" /></li>
 									<li><input type="reset" value="Reset Form" /></li>
@@ -252,7 +256,6 @@
 
 			</div>
 		</section>
-
 	</div>
 
 
@@ -281,6 +284,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://web3forms.com/client/script.js" async defer></script>
 
 </body>
 
