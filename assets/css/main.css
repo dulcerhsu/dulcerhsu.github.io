@@ -2947,7 +2947,7 @@ button:disabled,
 /* Wrapper */
 
 .wrapper {
-	min-height: 100vh;
+
 	padding: 6em 0 4em 0;
 	display: flex;
 	justify-content: center;
@@ -2980,6 +2980,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
+	min-height: 100vh;
 	background-color: #21b2a6;
 	color: #c8ece9;
 }
@@ -3148,10 +3149,12 @@ button:disabled,
 }
 
 .wrapper.style2 {
+	min-height: 100vh;
 	background-color: #2e3842;
 }
 
 .wrapper.style3 {
+	min-height: 100vh;
 	background-color: #505393;
 	color: #d3d4e4;
 }
@@ -3320,10 +3323,12 @@ button:disabled,
 }
 
 .wrapper.style4 {
+	/* min-height: 100vh; */
 	background-color: transparent;
 }
 
 .wrapper.style5 {
+	/* min-height: 100vh; */
 	background-color: #ffffff;
 	color: #4E4852;
 }
