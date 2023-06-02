@@ -1,11 +1,4 @@
-/* @import url(fontawesome-all.css); */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html,
 body,
@@ -168,6 +161,7 @@ textarea {
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -2773,6 +2767,7 @@ button:disabled,
 }
 
 .features li.image img {
+	display: block;
 	float: left;
 	margin-right: 10px;
 	width: 75px;
@@ -2780,6 +2775,18 @@ button:disabled,
 }
 
 @media screen and (max-width: 980px) {
+	.features li.image {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	.features li.image img {
+		display: block;
+		width: 75px;
+		height: 75px;
+	}
 
 	.features li {
 		padding: 3em 2em 1em 2em;
@@ -3888,20 +3895,12 @@ body.is-menu-visible #menu {
 
 	#banner {
 		padding: 7em 3em 5em 3em;
-		height: auto;
+		/* height: auto; */
 		min-height: 0;
 	}
 
 	#banner h2 {
 		font-size: 1.25em;
-	}
-
-	#banner br {
-		display: none;
-	}
-
-	#banner .more {
-		display: none;
 	}
 
 }
