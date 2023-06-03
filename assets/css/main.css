@@ -161,7 +161,6 @@ textarea {
 
 html {
 	box-sizing: border-box;
-	scroll-behavior: smooth;
 }
 
 *,
@@ -2429,39 +2428,6 @@ ul.actions.fit.stacked {
 
 }
 
-/* Icons */
-
-/* ul.icons {
-	cursor: default;
-	list-style: none;
-	padding-left: 0;
-}
-
-ul.icons li {
-	display: inline-block;
-	padding: 0 1em 0 0;
-}
-
-ul.icons li:last-child {
-	padding-right: 0 !important;
-}
-
-ul.icons.major {
-	padding: 1em 0;
-}
-
-ul.icons.major li {
-	padding-right: 3.5em;
-}
-
-@media screen and (max-width: 736px) {
-
-	ul.icons.major li {
-		padding: 0 1em !important;
-	}
-
-} */
-
 /* Table */
 
 .table-wrapper {
@@ -2983,6 +2949,8 @@ button:disabled,
 	min-height: 100vh;
 	background-color: #21b2a6;
 	color: #c8ece9;
+	/* background-color: #7E58A7;
+	color: #FFFFFF; */
 }
 
 .wrapper.style1 strong,
@@ -3023,7 +2991,7 @@ button:disabled,
 }
 
 .wrapper.style1 header.major p {
-	color: #c8ece9;
+	color: #ffffff;
 }
 
 .wrapper.style1 label {
@@ -3157,6 +3125,8 @@ button:disabled,
 	min-height: 100vh;
 	background-color: #505393;
 	color: #d3d4e4;
+	/* background-color: #81A758;
+	color: #FFFFFF; */
 }
 
 .wrapper.style3 strong,
