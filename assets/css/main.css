@@ -3108,6 +3108,11 @@ button:disabled,
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
+.wrapper.style1 img {
+	height: auto;
+	max-width: 10vw;
+}
+
 @media screen and (max-width: 736px) {
 
 	.wrapper.style1 .features li {
@@ -3911,9 +3916,9 @@ body.is-preload #banner:after {
 	opacity: 1;
 }
 
-/* CTA */
+/* Appointement */
 
-#cta .inner {
+#appointement .inner {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -3922,7 +3927,7 @@ body.is-preload #banner:after {
 	/* max-width: 45em;  */
 }
 
-#cta .inner header {
+#appointement .inner header {
 	-moz-order: 1;
 	-webkit-order: 1;
 	-ms-order: 1;
@@ -3931,11 +3936,11 @@ body.is-preload #banner:after {
 	width: 70%;
 }
 
-#cta .inner header p {
+#appointement .inner header p {
 	color: inherit;
 }
 
-#cta .inner .actions {
+#appointement .inner .actions {
 	-moz-order: 2;
 	-webkit-order: 2;
 	-ms-order: 2;
@@ -3946,17 +3951,17 @@ body.is-preload #banner:after {
 
 @media screen and (max-width: 980px) {
 
-	#cta .inner {
+	#appointement .inner {
 		display: block;
 		text-align: center;
 	}
 
-	#cta .inner header {
+	#appointement .inner header {
 		padding-right: 0;
 		width: 100%;
 	}
 
-	#cta .inner .actions {
+	#appointement .inner .actions {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 20em;
@@ -3967,7 +3972,7 @@ body.is-preload #banner:after {
 
 @media screen and (max-width: 736px) {
 
-	#cta .inner .actions {
+	#appointement .inner .actions {
 		max-width: none;
 	}
 
