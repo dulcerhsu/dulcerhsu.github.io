@@ -3147,6 +3147,10 @@ button:disabled,
 	color: #ffffff;
 }
 
+.wrapper.style3 p {
+	text-align: justify;
+}
+
 .wrapper.style3 hr {
 	border-color: rgba(0, 0, 0, 0.125);
 }
@@ -3161,6 +3165,7 @@ button:disabled,
 
 .wrapper.style3 header p {
 	color: #b9bad4;
+
 }
 
 .wrapper.style3 header.major h2,
@@ -3293,6 +3298,10 @@ button:disabled,
 
 	.wrapper.style3 .features li {
 		border-top-color: rgba(0, 0, 0, 0.125);
+	}
+
+	.wrapper.style3 p {
+		text-align: left;
 	}
 
 }
