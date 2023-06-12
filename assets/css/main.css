@@ -2629,7 +2629,7 @@ body.is-preload #banner:after {
 }
 
 body.is-mobile #main>header {
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 
 #footer {
@@ -2720,4 +2720,5 @@ body.is-mobile.landing .wrapper.style4 {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
