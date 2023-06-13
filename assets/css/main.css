@@ -2295,7 +2295,7 @@ input[type=submit]:disabled {
 }
 
 #header nav>ul>li>a.menuToggle:after {
-	background-image: url(../assets/css/images/bars.svg);
+	background-image: url("../../assets/css/images/bars.svg");
 	background-position: right center;
 	background-repeat: no-repeat;
 	content: '';
@@ -2441,7 +2441,7 @@ input[type=submit]:disabled {
 }
 
 #banner .more:after {
-	background-image: url(../assets/css/images/arrow.svg);
+	background-image: url("../../assets/css/images/arrow.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -2566,16 +2566,12 @@ body.is-preload #banner:after {
 	}
 }
 
-:root {
-	--banner-image: url("../images/banner.jpg")
-}
-
 #main>header {
 	padding: 12em 0 10em 0;
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var(--banner-image);
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var(--banner-image);
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var(--banner-image);
-	background-image: linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var(--banner-image);
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -2628,9 +2624,9 @@ body.is-preload #banner:after {
 	}
 }
 
-body.is-mobile #main>header {
+/* body.is-mobile #main>header {
 	background-attachment: fixed;
-}
+} */
 
 #footer {
 	padding: 6em 0 4em 0;
@@ -2708,7 +2704,3 @@ body.is-mobile.landing .wrapper.style4 {
 body.landing #footer {
 	background-color: rgba(29, 36, 42, .9)
 }
-
-/* body.is-mobile.landing #page-wrapper {
-	background: none;
-} */
