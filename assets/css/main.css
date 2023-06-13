@@ -3307,7 +3307,7 @@ button:disabled,
 }
 
 .wrapper.style4 {
-	/* min-height: 100vh; */
+	min-height: 80vh;
 	background-color: transparent;
 }
 
