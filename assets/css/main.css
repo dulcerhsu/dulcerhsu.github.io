@@ -2567,7 +2567,7 @@ body.is-preload #banner:after {
 }
 
 #main>header {
-	padding: 12em 0 10em 0;
+	/* padding: 12em 0 10em 0;
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), var("../../images/banner.jpg");
@@ -2576,7 +2576,21 @@ body.is-preload #banner:after {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center
+	text-align: center */
+}
+
+body.landing #page-wrapper,
+body.is-mobile.landing #banner,
+body.is-mobile.landing .wrapper.style4 {
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0
 }
 
 #main>header h2 {
@@ -2623,10 +2637,6 @@ body.is-preload #banner:after {
 		margin: 0 0 1em 0
 	}
 }
-
-/* body.is-mobile #main>header {
-	background-attachment: fixed;
-} */
 
 #footer {
 	padding: 6em 0 4em 0;
@@ -2687,19 +2697,7 @@ body.is-preload #banner:after {
 	}
 }
 
-body.landing #page-wrapper,
-body.is-mobile.landing #banner,
-body.is-mobile.landing .wrapper.style4 {
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../images/banner.jpg");
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 0
-}
+
 
 body.landing #footer {
 	background-color: rgba(29, 36, 42, .9)
