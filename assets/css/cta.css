@@ -1,0 +1,61 @@
+/* Appointement */
+
+#appointement .inner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    max-width: 90em;
+    /* max-width: 45em;  */
+}
+
+#appointement .inner header {
+    -moz-order: 1;
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+    padding-right: 3em;
+    width: 70%;
+}
+
+#appointement .inner header p {
+    color: inherit;
+}
+
+#appointement .inner .actions {
+    -moz-order: 2;
+    -webkit-order: 2;
+    -ms-order: 2;
+    order: 2;
+    width: 50%;
+    /* width: 30%; */
+}
+
+@media screen and (max-width: 980px) {
+
+    #appointement .inner {
+        display: block;
+        text-align: center;
+    }
+
+    #appointement .inner header {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #appointement .inner .actions {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20em;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #appointement .inner .actions {
+        max-width: none;
+    }
+
+}
