@@ -187,8 +187,8 @@
 
 		$this.on('touchmove', function (event) {
 
-			if ($this.touchPosX === null
-				|| $this.touchPosY === null)
+			if ($this.touchPosX === null ||
+				$this.touchPosY === null)
 				return;
 
 			var diffX = $this.touchPosX - event.originalEvent.touches[0].pageX,
@@ -239,8 +239,8 @@
 			}
 
 			// Prevent vertical scrolling past the top or bottom.
-			if (($this.scrollTop() < 0 && diffY < 0)
-				|| (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
+			if (($this.scrollTop() < 0 && diffY < 0) ||
+				(ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
 
 				event.preventDefault();
 				event.stopPropagation();
@@ -329,8 +329,8 @@
 
 				var i = $(this);
 
-				if (i.val() == ''
-					|| i.val() == i.attr('placeholder'))
+				if (i.val() == '' ||
+					i.val() == i.attr('placeholder'))
 					i
 						.addClass('polyfill-placeholder')
 						.val(i.attr('placeholder'));
@@ -481,8 +481,7 @@
 								if (i.val() == '') {
 									i.hide();
 									x.show();
-								}
-								else {
+								} else {
 									i.show();
 									x.hide();
 								}
@@ -534,7 +533,8 @@
 		// Step through elements.
 		$elements.each(function () {
 
-			var $e = $(this), $p,
+			var $e = $(this),
+				$p,
 				$parent = $e.parent();
 
 			// No parent? Bail.
