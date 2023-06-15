@@ -15,17 +15,29 @@
 	<link rel="stylesheet" href="assets/css/cta.css" />
 	<link rel="stylesheet" href="assets/css/footer.css" />
 
-	<!-- Internal Scripts -->
-	<script src="./assets/js/jquery.min.js" async defer></script>
-	<script src="./assets/js/jquery.scrollex.min.js" async defer></script>
-	<script src="./assets/js/jquery.scrolly.min.js" async defer></script>
-	<script src="./assets/js/browser.min.js" async defer></script>
-	<script src="./assets/js/breakpoints.min.js" async defer></script>
-	<script src="./assets/js/util.js" async defer></script>
-	<script src="./assets/js/main.js" async defer></script>
+	<!-- Scripts -->
+	<script>
+		function loadScript(source) {
+			var script = document.createElement('script');
+			script.src = source;
+			script.async = true;
+			script.defer = true;
+			document.head.appendChild(script);
+		}
 
-	<!-- External Scripts -->
-	<script src="https://web3forms.com/client/script.js" async defer></script>
+		// Internal Scripts
+		loadScript('./assets/js/jquery.min.js');
+		loadScript('./assets/js/jquery.scrollex.min.js');
+		loadScript('./assets/js/jquery.scrolly.min.js');
+		loadScript('./assets/js/browser.min.js');
+		loadScript('./assets/js/breakpoints.min.js');
+		loadScript('./assets/js/util.js');
+		loadScript('./assets/js/main.js');
+
+		// External Scripts
+		loadScript('https://web3forms.com/client/script.js');
+
+	</script>
 
 </head>
 
@@ -35,7 +47,7 @@
 		<h1><a href="index.html">Mindful Healing with Dulce</a></h1>
 		<nav>
 			<ul>
-				<li class="special">
+				<li>
 					<a href="#menu" class="menuToggle"><span>Menu</span></a>
 					<div id="menu">
 						<ul>
@@ -74,13 +86,17 @@
 				<header class="major">
 					<h2>Embracing Growth: <br />
 						The Transformative Power of Therapy</h2>
-					<p><br />Therapy holds immense importance in our lives, providing a unique space for
+
+					<br />
+
+					<p>Therapy holds immense importance in our lives, providing a unique space for
 						self-exploration,
 						growth, and healing. It offers a confidential and non-judgmental environment where individuals
 						can express their thoughts, emotions, and experiences freely. Through therapy, we gain a deeper
 						understanding of ourselves, our patterns, and the factors that influence our behaviors. It
 						empowers us to navigate life's challenges, manage stress, and cope with emotional difficulties.
 					</p>
+
 					<p>
 						Therapy equips us with valuable tools and strategies to enhance our well-being, build
 						resilience, and cultivate healthier relationships. It promotes self-awareness, self-compassion,
@@ -88,6 +104,7 @@
 						therapy, we embrace the opportunity to invest in our mental, emotional, and overall holistic
 						well-being.<br /><br /><br />
 					</p>
+
 					<img src="./images/logo/logo_rainbow.png" width="75" height="75">
 
 				</header>
