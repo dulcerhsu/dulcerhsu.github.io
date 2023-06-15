@@ -3596,9 +3596,7 @@ body.is-preload #banner:after {
 
 }
 
-body.is-mobile #main>header {
-	background-attachment: fixed;
-}
+
 
 
 /* Landing */
@@ -3617,6 +3615,10 @@ body.landing #page-wrapper {
 
 body.landing #footer {
 	background-color: rgba(29, 36, 42, 0.9);
+}
+
+body.is-mobile #main>header {
+	background-attachment: fixed;
 }
 
 body.is-mobile.landing #page-wrapper {
