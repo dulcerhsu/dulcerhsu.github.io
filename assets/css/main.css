@@ -3232,6 +3232,9 @@ button:disabled,
 		border-top-color: #dfdfdf;
 	}
 
+	.wrapper {
+		padding: 3em 2em 1em 2em;
+	}
 }
 
 @media screen and (max-width: 980px) {
@@ -3242,13 +3245,6 @@ button:disabled,
 
 }
 
-@media screen and (max-width: 736px) {
-
-	.wrapper {
-		padding: 3em 2em 1em 2em;
-	}
-
-}
 
 /* Page Wrapper + Menu */
 
@@ -3751,8 +3747,6 @@ body.is-preload #banner:after {
 body.is-mobile #main>header {
 	background-attachment: fixed;
 }
-
-
 
 
 /* Landing */
