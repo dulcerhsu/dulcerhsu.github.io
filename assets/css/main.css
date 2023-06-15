@@ -3631,7 +3631,7 @@ body.is-mobile.landing .wrapper.style4 {
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 }
 
 body.landing #footer,
