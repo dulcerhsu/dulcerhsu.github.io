@@ -89,12 +89,12 @@
     border-bottom-left-radius: 3px;
 }
 
-.features li.image {
+.features li.icon {
     list-style: none;
     display: inline-block;
 }
 
-.features li.image img {
+.features li.icon img {
     display: block;
     float: left;
     margin-right: 10px;
@@ -103,14 +103,14 @@
 }
 
 @media screen and (max-width: 980px) {
-    .features li.image {
+    .features li.icon {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 10px;
     }
 
-    .features li.image img {
+    .features li.icon img {
         display: block;
         width: 75px;
         height: 75px;
