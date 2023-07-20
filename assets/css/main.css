@@ -3599,7 +3599,7 @@ body.is-preload #banner:after {
 
 /* Landing */
 
-body.landing #page-wrapper,
+/* body.landing #page-wrapper, */
 body.is-mobile.landing #page-wrapper,
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
@@ -3610,13 +3610,13 @@ body.is-mobile.landing .wrapper.style4 {
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
-	/* background-size: 100%; */
+	background-size: 100%;
 	padding-top: 0;
-	/* height: 100%; */
-	-webkit-background-size: cover;
+	height: 100%;
+	/* -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover; */
 }
 
 
