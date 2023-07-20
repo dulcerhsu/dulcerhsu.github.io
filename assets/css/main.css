@@ -3603,10 +3603,10 @@ body.is-preload #banner:after {
 body.is-mobile.landing #page-wrapper,
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner-mobile.jpeg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner-mobile.jpeg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner-mobile.jpeg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner-mobile.jpeg");
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
