@@ -3491,7 +3491,7 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 736px) {
 
 	#banner {
-		padding: 7em 3em 5em 3em;
+		/* padding: 7em 3em 5em 3em; */
 		/* height: auto; */
 		min-height: 0;
 	}
@@ -3528,7 +3528,7 @@ body.is-preload #banner:after {
 }
 
 
-/* Main */
+/* Main
 
 #main>header {
 	padding: 12em 0 10em 0;
@@ -3557,8 +3557,8 @@ body.is-preload #banner:after {
 
 #main>header p a {
 	color: inherit;
-}
-
+} */
+/* 
 @media screen and (max-width: 1680px) {
 
 	#main>header {
@@ -3594,7 +3594,7 @@ body.is-preload #banner:after {
 		margin: 0 0 1em 0;
 	}
 
-}
+} */
 
 
 /* Landing */
@@ -3603,10 +3603,10 @@ body.landing #page-wrapper,
 body.is-mobile.landing #page-wrapper,
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/yellow.jpg");
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
