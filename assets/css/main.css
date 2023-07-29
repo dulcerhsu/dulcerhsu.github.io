@@ -3508,8 +3508,8 @@ body.is-preload #banner:after {
 
 /* Landing */
 
-body.landing #page-wrapper,
-body.is-mobile.landing #page-wrapper,
+/* body.landing #page-wrapper,
+body.is-mobile.landing #page-wrapper, */
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
@@ -3521,7 +3521,6 @@ body.is-mobile.landing .wrapper.style4 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 0;
-	height: 100%;
 }
 
 
