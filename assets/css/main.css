@@ -3341,7 +3341,7 @@ body.is-menu-visible #menu {
 	justify-content: center;
 	cursor: default;
 	height: 100vh;
-	min-height: 35em;
+	/* min-height: 35em; */
 	overflow: hidden;
 	position: relative;
 	text-align: center;
@@ -3508,8 +3508,8 @@ body.is-preload #banner:after {
 
 /* Landing */
 
-/* body.landing #page-wrapper,
-body.is-mobile.landing #page-wrapper, */
+body.landing #page-wrapper,
+body.is-mobile.landing #page-wrapper,
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
