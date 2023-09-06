@@ -3523,13 +3523,23 @@ body.is-mobile.landing .wrapper.style4 {
 	padding-top: 0;
 }
 
+@media (hover: none) {
 
-body.is-mobile #main>header {
-	background-attachment: fixed;
+	body.landing #page-wrapper,
+	body.is-mobile.landing #page-wrapper,
+	body.is-mobile.landing #banner,
+	body.is-mobile.landing .wrapper.style4 {
+		background-attachment: initial;
+	}
 }
 
 
-body.landing #footer,
+/* body.is-mobile #main>header {
+	background-attachment: fixed;
+} */
+
+
+/* body.landing #footer,
 body.is-mobile.landing #footer {
 	background-color: #1d242a;
-}
+} */
