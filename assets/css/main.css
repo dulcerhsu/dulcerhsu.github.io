@@ -3516,30 +3516,11 @@ body.is-mobile.landing .wrapper.style4 {
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
+	position: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 0;
+
 }
-
-@media (hover: none) {
-
-	body.landing #page-wrapper,
-	body.is-mobile.landing #page-wrapper,
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
-		background-attachment: initial;
-	}
-}
-
-
-/* body.is-mobile #main>header {
-	background-attachment: fixed;
-} */
-
-
-/* body.landing #footer,
-body.is-mobile.landing #footer {
-	background-color: #1d242a;
-} */
